@@ -1,0 +1,16 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://c7788c4k4cqnx"]
+
+[ext_resource type="Texture2D" uid="uid://cbh2swhiraqc8" path="res://Doodad.png" id="1_i6yqr"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ud6s"]
+texture = ExtResource("1_i6yqr")
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_7ud6s")

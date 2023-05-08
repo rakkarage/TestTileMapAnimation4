@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://27m6buloxgo6"]
+
+[ext_resource type="Shader" path="res://Animation.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cbh2swhiraqc8" path="res://Doodad.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/count = 6.0
+shader_parameter/duration = 0.25
+shader_parameter/width = 0.0833333
+shader_parameter/startX = 0.0
+shader_parameter/frames = ExtResource("2")
